@@ -11,9 +11,9 @@ def is_palindrome(text):
     clean = [c for c in nospace if c.isalnum()]
     cleaned = ''.join(clean)
 
-    upper = cleaned.upper()
+    upper1 = cleaned.upper()
 
-    return upper == upper[::-1]
+    return upper1 == upper1[::-1]
 
 
 if __name__ == '__main__':
